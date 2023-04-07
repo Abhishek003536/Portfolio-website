@@ -1,0 +1,178 @@
+
+@media screen and (max-width :1100px) {
+    .sidebar {
+        width: 100%;
+        height: 3rem;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      #sidebarsticky{
+        position: absolute;
+        top: 0;
+    }
+      .sidebar a {
+        margin: 0vw 5vw;
+        font-size: 2vw;
+
+    }
+    .sidebar li{
+        display: inline;  
+
+    }
+    .sidebar nav{
+        padding: 1rem;
+    }
+    .sidebar ul{
+        margin-left: 1rem;
+    }
+    .services h2{
+        font-size: 4vw;
+
+    }
+    .services-row{
+        margin: 53px 317px 32px 156px;
+
+    }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        align-items: center;
+        width: 100vw;
+    }
+    .devpic-intro{
+        margin-top: -12%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .devinfo{
+        margin-top: -20%;
+
+    }
+    
+    .infocontainer{
+        border-radius: 15%;
+        margin: 15% auto;
+        height: 16%;
+        width: 85%;
+
+    }
+    .infocontainer-intro{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        width: 77%;
+        height: 100%;
+        align-items: center;
+    }
+  
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        align-items: center;
+        margin-top: 0;
+        height: 150rem;
+
+    }
+    .skills h2{
+        font-size: 228%;
+
+    }
+   
+
+    .bottom-container{
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width:418px) {
+    .infocontainer {
+        border-radius: 15%;
+        margin: 15% auto;
+        height: 14%;
+        width: 100%;
+        background-color: white;
+    }
+    .infocontainer-intro {
+        height: 51vh;
+        width: 90vw;
+        margin: 40px auto;
+        margin-bottom: 90px;
+        overflow: hidden;
+        border-radius: 4%;
+        background-color: #d7d7d7;
+    }
+    .devpic-intro {
+        margin-top: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 0%;
+    }
+    .devpic-intro img {
+        height: auto;
+        width: 35%;
+        border-radius: 80%;
+        margin: 10px 151px;
+    }
+    .devinfo {
+        margin-top: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .devinfo p {
+        line-height: 150%;
+        font-size: 90%;
+        font-weight: 600;
+        margin: 9%;
+        margin-top: -9%;
+
+    }
+    .skills {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow: hidden;
+        align-items: center;
+        margin-top: -140px;
+        height: 150rem;
+    }
+    .skills h2 {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 2.5rem;
+        color: #66bfbf;
+        margin-left: 26%;
+        margin-top: -20%;
+    }
+    .skill-row {
+        width: 85%;
+        text-align: left;
+        line-height: 2;
+        margin: 7px auto 136px auto;
+        margin-top: -110%;
+    }
+    #sidebarsticky {
+        position: absolute;
+        top: 0;
+        height: 9%;
+    }
+    .sidebar ul {
+        margin-left: 0rem;
+    }
+
+    .sidebar nav li {
+        list-style: none;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 55px 0px 0px 0px;
+    }
+    .sidebar a {
+        margin: 0vw 3vw;
+        font-size: 3vw;
+    }
+}

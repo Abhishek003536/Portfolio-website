@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTAINER */
+.container{
+    display: flex;
+}
+
+/* SIDEBAR */
+.sidebar{
+    background-color: rgb(227 227 227);
+    width: 200px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    
+}
+#sidebarsticky{
+    position: sticky;
+    top: 0px;
+}
+.sidebar nav{
+    padding: 47px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 22px;
+    padding: 55px 0px 0px 0px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+.sidebargo{
+    transform: translateX(-200px);
+    position: absolute;
+
+}
+
+/* MAIN */
+.main{
+    width: 85vw;
+    padding: 20px;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 123px;
+    width: 20px;
+}
+
+
+.infocontainer{
+    background-color:rgb(251 251 251);
+    border-radius: 2%;
+    width: 90%;
+    margin: 6% auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 3.5vw;
+}
+
+.name{
+    font-size: 3.3vw; 
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.about{
+    font-size: 1.5vw;
+}
+.more{
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.buttons button {
+    color: white;
+    background-color: #184a54;
+    margin-top: 24px;
+    padding: 6px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    color: rgb(114, 187, 206);;
+    background-color: white;
+}
+
+.devpic img{
+    height: 56vh;
+    width: 100%;
+    border-radius: 80%;
+
+}
+.devpicintro img{
+    height:  44vh;
+    width: 330px;
+    border-radius: 80%;
+}
+
+
+/* CONTACT PAGE */
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding-top: 50px;
+    padding-left: 70px;
+    background-color: #f9f7f7;
+    border-radius: 3%;
+
+}
+.contactform form{
+    margin-left: 75px;
+    margin-top: 55px;
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    width: 77%;
+
+}
+
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    width: 30vw;
+    padding: 3px;
+    border-radius: 6px;
+    margin: 6px 0;
+}
+#checkBox{
+    display: flow-root;
+}
+.contactform form button{
+    color: white;
+    background-color: #184a54;
+    margin-top: 25px;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.contactform form button:hover{
+    color: rgb(114, 187, 206);;
+    background-color: white;
+}
+
+#emailHelp {
+    font-size: 8px;
+    color: rgb(221 60 60);
+    margin: -9px 9px;
+}
+
+
+/* INTRO PAGE */
+
+.infocontainer-intro{
+    height: 70vh;
+    width: 40vw;
+    margin: 0px auto;
+    margin-bottom: 90px;
+    overflow: hidden;
+    
+}
+
+.devpic-intro img{
+    height: auto;
+    width: 35%;
+    border-radius: 80%;
+    margin: 50px 120px;
+}
+.skills{
+    margin-top: 177px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.devinfo p{
+    line-height: 33px;
+}
+.skills h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+}
+.skills h3{
+    font-family: 'Source Code Pro', monospace;
+    color: #11999e;
+}
+
+
+.skill-row{
+    width: 63%;
+    text-align: left;
+    line-height: 2;
+    margin: 107px auto 121px auto;
+}
+.coding{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skills p{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.webdevelop{
+    width: 25%;
+    float: right;
+    margin-left: 25px;
+}
+
+
+/* FOOTER */
+
+.bottom-container {
+    padding-top: 50px;
+    height: 120px;
+    background-color: #184a54;
+    text-align: center;
+    width: 100vw;
+}
+
+div {
+    display: block;
+}
+.bottom-container  a {
+    color: #11999e;
+    display: inline-block;
+    padding: 0 20px 30px 20px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    font-family: "Montserrat", sans-serif;
+    
+
+
+}
+
+
+
+/* SERVICES PAGE */
+.services{
+    margin-top: 5%;
+    margin-left: 13%;
+    width: 74%;
+    background-color: #f9f7f7;
+    border-radius: 3%;
+}
+.services h2{
+    margin-left: 22rem;
+    color: #66bfbf;
+    font-size: 2.5rem;
+}
+.services-row{
+    width: 50%;
+    line-height: 2;
+    margin: 58px auto 75px 45px;
+}
+.services-row h3{
+    color: #66bfbf;
+    font-size: 150%;
+
+
+}
+.services-row li{
+    font-size: 100%;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+
